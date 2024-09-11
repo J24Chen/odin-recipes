@@ -3,18 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Recipe main page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1> Odin Recipes</h1>
+        <h1 id="header"> Odin Recipes</h1>
 
-        <H3> DISCLAIMER: Jason is not a cook (AT ALL). Never trust his recipes without parental guidance.</H3>
+        <h3 class="text"> DISCLAIMER: Jason is not a cook <span class = "warning">(AT ALL)</span>. Never trust his recipes without parental guidance.</h3>
         <img src = "kitchen_on_fire.jpg" alt="Kitchen on fire" width="600">
-        <div>
+        <h2 class = "subheader"> Recipes!</h2>
+        <div class = "adjusted-text">
             <ul>
-                <li> <a href = "./recipes/lasagna.html"> Lasagna </a></li>
-                <li> <a href = "./recipes/Vertical_sandwich.html"> Vertical sandwich (WHAT) </a></li>
-                <li> <a href = "./recipes/Lemonade.html"> Lemonade </a></li>
+                <li> <a href = "./recipes/lasagna.html"><img class = "list-image" src = "./recipes/lasagnaimg.webp"> lasagna </a></li>
+                <li> <a href = "./recipes/Vertical_sandwich.html"> <img class = "list-image" src = "./recipes/Vertical_sandwich.png"> Vertical sandwich (WHAT) </a></li>
+                <li> <a href = "./recipes/Lemonade.html"> <img class = "list-image" src = "./recipes/lemonade.jpg"> Lemonade </a></li>
             </ul>
         </div>
     </body>

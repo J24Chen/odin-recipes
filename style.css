@@ -1,0 +1,46 @@
+
+#header {
+    background-color: navajowhite;
+    font-weight:bold;
+    text-align: center;
+}
+
+img {
+    justify-content:center;
+    align-content: center;
+    display:block;
+    margin:auto;
+}
+
+.adjusted-text {
+    border: 3px solid rgb(248, 142, 22);
+    display:block;
+    margin:auto;
+    width:fit-content;
+}
+
+.adjusted-text li{
+    font-family: fantasy;
+    font-weight:50px;
+    font-size:large;
+    display: inline-block;
+    margin:0 2em;
+    text-align:center;
+}
+
+.warning {
+    color:red;
+    text-decoration:underline;
+}
+
+.subheader {
+    background-color:burlywood;
+    text-align:center;
+
+}
+
+a .list-image {
+    height:200px;
+    width:auto
+    
+}
